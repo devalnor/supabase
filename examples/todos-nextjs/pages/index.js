@@ -1,3 +1,10 @@
+import AuthManager from 'components/AuthManager'
+import AuthForm from 'components/AuthForm'
+
 export default function Home() {
-  return <div>Hello World</div>
+  return (
+    <AuthManager AuthForm={AuthForm}>
+      <div>Hello World</div>
+    </AuthManager>
+  )
 }
