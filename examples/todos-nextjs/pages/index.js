@@ -1,12 +1,3 @@
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      Hello World
-    </div>
-  )
+  return <div>Hello World</div>
 }
